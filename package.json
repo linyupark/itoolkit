@@ -1,6 +1,6 @@
 {
   "name": "@linyupark/itoolkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/linyupark/itoolkit/issues"
   },
-  "homepage": "https://github.com/linyupark/itoolkit#readme"
+  "homepage": "https://github.com/linyupark/itoolkit#readme",
+  "dependencies": {
+    "react": "^16.13.0"
+  }
 }
