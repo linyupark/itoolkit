@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 
 export default function useConnectStatus(ws: WebSocket) {
   const [readyState, setReadyState] = useState(ws.readyState);
