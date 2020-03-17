@@ -16,5 +16,9 @@
     "url": "https://github.com/linyupark/itoolkit/issues"
   },
   "homepage": "https://github.com/linyupark/itoolkit#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "react": "^16.13.0"
+  }
 }

@@ -1,4 +1,4 @@
-import { useState, useEffect } from '@tarojs/taro';
+import { useState, useEffect } from 'react';
 
 export default function useWebsocketStatus(ws: WebSocket) {
   const [readyState, setReadyState] = useState(ws.readyState);
@@ -25,7 +25,7 @@ export default function useWebsocketStatus(ws: WebSocket) {
       console.log('ws state event listener removed');
     }
 
-  }, []);
+  }, [ws]);
 
   useEffect(() => {
     setStateName(['连接中', '已连接', '断开中', '已断开'][readyState]);
