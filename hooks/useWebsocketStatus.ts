@@ -1,5 +1,6 @@
+import { useState, useEffect } from '@tarojs/taro';
 
-export default function useConnectStatus(ws: WebSocket) {
+export default function useWebsocketStatus(ws: WebSocket) {
   const [readyState, setReadyState] = useState(ws.readyState);
   const [stateName, setStateName] = useState('');
 
